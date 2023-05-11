@@ -17,7 +17,7 @@ header{
 
 nav{
     height: 50px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 nav a{
@@ -59,16 +59,18 @@ h1{
 main{
     padding: 50px 0;
     display: block;
+    width: 75%;
 }
 
 #main-text{
     background:#DDB9A3;
     padding: 0.25% 1%;
     color: white;
+    width: 75%;
 }
 
 .feature{
-    width: 45%;
+    width: 20%;
     margin: 0 auto;
     text-align: center;
 }
@@ -83,12 +85,13 @@ main{
 }
 
 footer{
-    background:#F9E7DC ;
+    background:#F9E7DC;
 }
 
 footer div{
     height: 150px;
-    background-image: url("/assets/footer_img.jpg");
-    background-size: cover;
-    background-position: 15%;
+    background-image: url("./assets/footer_img.jpg");
+    background-size: 80;
+    background-position: 5%;
+    align-items: flex-end;
 }
